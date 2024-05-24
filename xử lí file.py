@@ -27,6 +27,6 @@ doc4= file3.read()
 print(doc3)
 print(doc4)
 file3.close()
-with open('thuctapsinh') as job:
+with open('thuctapsinh') as job: # tự đóng file
 	data=job.read()
 print(data)
