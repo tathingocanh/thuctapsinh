@@ -30,5 +30,3 @@ if k1 > k2 and k1 > k3: print('so lon nhat la', k1)
 elif k2 > k1 and k2 > k3: print('so lon nhat la', k2)
 else: print('so lon nhat la', k3)'''
 
-a= ('abcd sdfgyuy dfg Anh fgh werty fnm bnm Anh')
-print(len(a))
