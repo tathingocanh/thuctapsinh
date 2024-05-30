@@ -33,3 +33,12 @@ for i in range(len(a)):
 	a[i]+=1
 print(a)
 
+anh= ['--'.join((a.capitalize(),b.upper()+c.lower())) for a,b,c in[ ('ta','thi','NGOC'),('dai','hoc','DDL')]]
+print(anh)
+
+hi= { key:value +1 for key,value in (('anh',18),('lan',21)) if value %2!=0}
+print(hi)
+
+enum=['anh','lan','thao','thuy']
+gen= enumerate(enum,1)
+print(list(gen))
